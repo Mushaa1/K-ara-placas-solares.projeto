@@ -1,0 +1,83 @@
+@import url('./index.css');
+
+.tit {
+    text-align: center;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tit h2 {
+    color: #1F8ECC;
+    padding-top: 2rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.imagem {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.5rem;
+    padding: 1rem;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    margin-left: 12px;
+    margin-bottom: 1rem;
+
+
+}
+
+.imagem img {
+    width: 19vw;
+    margin-left: 1px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    gap: 10px;
+}
+
+.imagem img:hover {
+    filter: sepia(1, 1, 1, 1);
+    transform: scale(1.02);
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.banner h3 {
+    color: #fff;
+    position: absolute;
+    top: 17rem;
+    margin-left: 5rem;
+    background: transparent;
+    border: 1.5px solid #fff;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 1rem;
+    transition: .2s;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner h3:hover {
+    background-color: #1F8ECC;
+    border: transparent;
+}
+
+.banner h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: xx-large;
+    position: absolute;
+    top: 10rem;
+    margin-left: 5rem;
+}
